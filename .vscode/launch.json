@@ -10,11 +10,14 @@
             "request": "launch",
             "program": "${workspaceFolder}/bin/datos-pruebas",
             "args": [],
-            "stopAtEntry": false,
+            "stopAtEntry": true,
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": true,
             "MIMode": "gdb",
+            "osx": {
+                "MIMode": "lldb"
+            },
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",
@@ -30,11 +33,14 @@
             "request": "launch",
             "program": "${workspaceFolder}/bin/contar-usos",
             "args": [],
-            "stopAtEntry": false,
+            "stopAtEntry": true,
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": true,
             "MIMode": "gdb",
+            "osx": {
+                "MIMode": "lldb"
+            },
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",
@@ -50,11 +56,14 @@
             "request": "launch",
             "program": "${workspaceFolder}/bin/usos-por-usuario",
             "args": [],
-            "stopAtEntry": false,
+            "stopAtEntry": true,
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": true,
             "MIMode": "gdb",
+            "osx": {
+                "MIMode": "lldb"
+            },
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",
