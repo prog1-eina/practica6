@@ -1,5 +1,5 @@
 ﻿/******************************************************************************\
- * Programación 1. Práctica 5
+ * Programación 1. Práctica 6
  * Autores: Miguel Ángel Latre
  * Modificado por: ¡¡¡PON AQUÍ TU NOMBRE!!!
  * Ultima revisión: ¡¡¡!!!
@@ -31,8 +31,10 @@ struct UsoBizi {
  *       los campos del parámetro «uso» el identificador del usuario al que
  *       corresponde la utilización de la línea leída y los códigos de las
  *       estaciones de retira y devolución de la bicicleta.
+ *       Ha devuelto true si no se han terminado los datos del fichero en el
+ *       intento de lectura y false en caso contrario.
  */
-void leerUso(istream& f, UsoBizi& uso);
+bool leerUso(istream& f, UsoBizi& uso);
 
 
 /*
@@ -47,4 +49,4 @@ void leerUso(istream& f, UsoBizi& uso);
  *       misma estación. En caso contrario, la función ha devuelto «false».
  */
 bool contarUsos(const string rutaFichero, 
-                unsigned int& traslados, unsigned int& usosCirculares);
+                unsigned& traslados, unsigned& usosCirculares);

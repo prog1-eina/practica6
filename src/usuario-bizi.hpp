@@ -1,5 +1,5 @@
 ﻿/******************************************************************************\
- * Programación 1. Práctica 5
+ * Programación 1. Práctica 6
  * Autores: Miguel Ángel Latre
  * Modificado por: ¡¡¡PON AQUÍ TU NOMBRE!!!
  * Ultima revisión: ¡¡¡!!!
@@ -25,7 +25,7 @@ struct UsuarioBizi {
  * Post: Ha devuelto el número total de usos del sistema Bizi
  *       correspondiente a «usuario».
  */
-unsigned int numUsosTotales(const UsuarioBizi usuario);
+unsigned numUsosTotales(const UsuarioBizi usuario);
 
 
 /*

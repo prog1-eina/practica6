@@ -1,5 +1,5 @@
 /******************************************************************************\
- * Programación 1. Práctica 5
+ * Programación 1. Práctica 6
  * Autor: Miguel Ángel Latre Abadía
  * Última revisión: 15 de noviembre de 2020
  * Resumen: Fichero de interfaz «pedir-nombre-fichero.hpp» de un módulo que 
@@ -19,7 +19,9 @@ const string RUTA_DATOS = "datos/";
 /*
  * Pre:  ---
  * Post: Ha solicitado al usuario el nombre de un fichero de usos del sistema
- *       Bizi, lo ha leído de teclado y ha asignado a «nombreRelativo» una ruta
+ *       Bizi escribiendo en la pantalla el mensaje
+ *       "Escriba el nombre de un fichero de usos del sistema Bizi: ",
+ *       lo ha leído de teclado y ha asignado a «nombreRelativo» una ruta
  *       de acceso relativa al mismo, consistente en la concatenación de la 
  *       cadena «RUTA_DATOS» y el nombre de fichero leído de teclado.
  */

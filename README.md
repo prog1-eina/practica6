@@ -2,7 +2,7 @@
 
 ## Escuela de Ingeniería y Arquitectura. Universidad de Zaragoza
 
-Datos y código fuente de partida para la 6.ª práctica de Programación 1.
+Datos y código fuente de partida para la 6ª práctica de [Programación 1](https://github.com/prog1-eina) ([Grado en Ingeniería Informática](https://webdiis.unizar.es/~silarri/coordinadorGrado/), [Escuela de Ingeniería y Arquitectura](https://eina.unizar.es/), [Universidad de Zaragoza](https://www.unizar.es/)).
 
 Puede clonarse o descargarse en formato ZIP y abrirse en Visual Studio Code, abriendo el directorio ``practica6``.
 
