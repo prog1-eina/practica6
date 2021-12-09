@@ -4,10 +4,10 @@
 ################################################################################
 
 datos-pruebas:                src/1-datos-pruebas.cpp | bin
-	g++ -g -Wall -Wextra      src/1-datos-pruebas.cpp -o bin/datos-pruebas -static
+	g++ -g -Wall -Wextra      src/1-datos-pruebas.cpp -o bin/datos-pruebas
 
 contar-usos:                  build/2-contar-usos.o build/uso-bizi.o build/pedir-nombre-fichero.o  | bin
-	g++ -g                    build/2-contar-usos.o build/uso-bizi.o build/pedir-nombre-fichero.o -o bin/contar-usos -static
+	g++ -g                    build/2-contar-usos.o build/uso-bizi.o build/pedir-nombre-fichero.o -o bin/contar-usos
 
 usos-por-usuario:             
 	echo Tienes que escribir las reglas para compilar el programa usos-por-usuario
