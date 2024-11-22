@@ -1,0 +1,108 @@
+{
+    "tasks": [
+        {
+            "label": "Terminal (solo macOS, para dar permisos a VSC)",
+            "type": "shell",
+            "command": "osascript -e 'tell application \"Terminal\"\ndo script \"echo hello\"\nend tell'",
+            "problemMatcher": []
+        },
+        {
+            "label": "Compilar «datos-pruebas»",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "datos-pruebas"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build"
+        },
+        {
+            "label": "Ejecutar «datos-pruebas»",
+            "type": "shell",
+            "command": "bin/datos-pruebas",
+            "windows": {
+                "command": "cmd",
+                "args": ["/c", "chcp 65001 && bin\\datos-pruebas.exe"]
+            },
+            "dependsOn": "Compilar «datos-pruebas»",
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "Compilar «contar-paradas»",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "contar-paradas"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build"
+        },
+        {
+            "label": "Ejecutar «contar-paradas»",
+            "type": "shell",
+            "command": "bin/contar-paradas",
+            "windows": {
+                "command": "cmd",
+                "args": ["/c", "chcp 65001 && bin\\contar-paradas.exe"]
+            },
+            "dependsOn": "Compilar «contar-paradas»",
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "Compilar «paradas-por-estacion»",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "paradas-por-estacion"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build"
+        },
+        {
+            "label": "Ejecutar «paradas-por-estacion»",
+            "type": "shell",
+            "command": "bin/paradas-por-estacion",
+            "windows": {
+                "command": "cmd",
+                "args": ["/c", "chcp 65001 && bin\\paradas-por-estacion.exe"]
+            },
+            "dependsOn": "Compilar «paradas-por-estacion»",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Limpiar resultados de compilación",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "clean"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build"
+        }
+    ],
+    "presentation": {
+        "showReuseMessage": true,
+        "panel": "shared",
+        "reveal": "always",
+        "focus": true,
+    },
+    "version": "2.0.0"
+}
