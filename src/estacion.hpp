@@ -29,7 +29,7 @@ struct Estacion {
  * Pre:  «nombreFichero» es el nombre de un fichero de texto que sigue el formato de la regla
  *       <estaciones> establecida en el enunciado. Estaciones tiene al menos tantas componentes
  *       como estaciones hay en el fichero «nombreFichero». Los valores de «numEstaciones» y
- *       «lecturaOkk» no están definidos.
+ *       «lecturaOk» no están definidos.
  * Post: Si el fichero «nombreFichero» existe y puede leerse de él, copia en las primeras
  *       componentes del vector «estaciones» los datos de las estaciones del fichero
  *       «nombreFichero»; asigna a «numEstaciones» el número de estaciones copiadas en el
@@ -39,22 +39,6 @@ struct Estacion {
  */
 void leerEstaciones(const string nombreFichero,
                     Estacion estaciones[], unsigned &numEstaciones, bool &lecturaOk);
-
-
-/* 
- * Pre:  «nombreFichero» es el nombre de un fichero de texto que sigue el formato de la regla
- *       <estaciones> establecida en el enunciado. Los valores de «estacion», «encontrado» y
- *       «lecturaOk» no están definidos.
- * Post: Si el fichero «nombreFichero» existe y puede leerse de él, asigna a «lecturaOk» el
- *       valor «true». Si, además, hay información en el fichero sobre una estación de código
- *       «codEstacion», asigna a «estacion» los datos de esa estación y a «encontrado» el valor
- *       «true». Si no hay información sobre una estación de código «codEstacion», asigna a
- *       «encontrado» el valor «false». Si el fichero «nombreFichero» no existe, escribe un
- *       mensaje de error en «cerr» para informar de ello al estacion y asigna al parámetro
- *       «lecturaOk» el valor «false».
- */
-void buscarEstacion(const string nombreFichero, const unsigned codEstacion,
-                    Estacion &estacion, bool &encontrado, bool &lecturaOk);
 
 
 /*
@@ -72,3 +56,21 @@ void intercambiar(Estacion &estacion1, Estacion &estacion2);
  *       programadas y del código.
  */
 void mostrar(const Estacion estacion);
+
+
+/* 
+ * Pre:  «nombreFichero» es el nombre de un fichero de texto que sigue el formato de la regla
+ *       <estaciones> establecida en el enunciado. Los valores de «estacion», «encontrado» y
+ *       «lecturaOk» no están definidos.
+ * Post: Si el fichero «nombreFichero» existe y puede leerse de él, asigna a «lecturaOk» el
+ *       valor «true». Si, además, hay información en el fichero sobre una estación de código
+ *       «codEstacion», asigna a «estacion» los datos de esa estación y a «encontrado» el valor
+ *       «true». Si no hay información sobre una estación de código «codEstacion», asigna a
+ *       «encontrado» el valor «false». Si el fichero «nombreFichero» no existe, escribe un
+ *       mensaje de error en «cerr» para informar de ello al estacion y asigna al parámetro
+ *       «lecturaOk» el valor «false».
+ * NOTA: Este procedimiento solo lo vas necesitar si implementas la mejora del proyecto
+ *       «2-contar-paradas» sugerida en la tarea 4.
+ */
+void buscarEstacion(const string nombreFichero, const unsigned codEstacion,
+                    Estacion &estacion, bool &encontrado, bool &lecturaOk);
