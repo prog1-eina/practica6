@@ -1,12 +1,6 @@
 {
     "tasks": [
         {
-            "label": "Terminal (solo macOS, para dar permisos a VSC)",
-            "type": "shell",
-            "command": "osascript -e 'tell application \"Terminal\"\ndo script \"echo hello\"\nend tell'",
-            "problemMatcher": []
-        },
-        {
             "label": "Compilar «datos-pruebas»",
             "type": "shell",
             "command": "make",
@@ -96,7 +90,13 @@
                 "$gcc"
             ],
             "group": "build"
-        }
+        },
+        {
+            "label": "Terminal (solo macOS, para dar permisos a VSC)",
+            "type": "shell",
+            "command": "osascript -e 'tell application \"Terminal\"\ndo script \"echo hello\"\nend tell'",
+            "problemMatcher": []
+        },
     ],
     "presentation": {
         "showReuseMessage": true,
