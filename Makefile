@@ -35,8 +35,8 @@ ifeq ($(OS),Windows_NT)
 	if not exist data\test-10 mkdir data\test-10
 	if not exist data\test-200 mkdir data\test-200
 else
-	mkdir data/test-10
-	mkdir data/test-200
+	mkdir -p data/test-10
+	mkdir -p data/test-200
 endif
 
 clean:
