@@ -15,4 +15,6 @@ Los ficheros de la carpeta ``data`` proceden del portal de datos abiertos de Ren
 
 
 ---
-[Práctica 6 de Programación 1](https://github.com/prog1-eina/practica6) © 2024 del [Profesorado del DIIS](https://diis.unizar.es/) tiene licencia [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)<img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"> excepto donde se indique lo contrario.
+[Práctica 6 de Programación 1](https://github.com/prog1-eina/practica6) © 2024 del [Profesorado del DIIS](https://diis.unizar.es/) tiene licencia [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) excepto donde se indique lo contrario.
+
+<img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" width=20 height=20> <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" width=20 height=20> <img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg"  width=20 height=20> <img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" width=20 height=20>
