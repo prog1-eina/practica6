@@ -6,6 +6,7 @@
  * Resumen: Fichero de interfaz «estacion.hpp» de un módulo para trabajar con registros que
  *          almacenan la información disponible sobre estaciones de tren y que permiten
  *          contabilizar el número de paradas programadas en cada estación.
+ * Licencia: CC BY-NC-SA 4.0
 \*********************************************************************************************/
 
 #pragma once 

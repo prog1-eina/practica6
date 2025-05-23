@@ -7,6 +7,7 @@
  *          nombre de la carpeta que contiene los datos con los que se va a trabajar en dos
  *          rutas de acceso a los ficheros "stop_times.txt" y "stops.txt" relativas al
  *          directorio de ejecución del proyecto.
+ * Licencia: CC BY-NC-SA 4.0
 \*********************************************************************************************/
 
 #pragma once

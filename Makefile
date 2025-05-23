@@ -1,6 +1,8 @@
 ################################################################################
 ## Fichero «Makefile» para los programas de la práctica 6:
 ## «datos-pruebas», «contar-paradas» y «paradas-por-estacion»
+##
+## Licencia: CC BY-NC-SA 4.0
 ################################################################################
 
 datos-pruebas:           src/1-datos-pruebas.cpp src/pedir-directorio.hpp | bin test-dirs

@@ -5,6 +5,7 @@
  * Última revisión: ¡¡¡!!!
  * Resumen: Fichero de interfaz «parada-programada.hpp» de un módulo para trabajar con
  *          registros que representan paradas programadas de trenes en una estación.
+ * Licencia: CC BY-NC-SA 4.0
 \*********************************************************************************************/
 
 #pragma once

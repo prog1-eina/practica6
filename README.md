@@ -6,8 +6,13 @@ Datos y código fuente de partida para la 6ª práctica de [Programación 1](htt
 
 Puede clonarse o descargarse en formato ZIP y abrirse en Visual Studio Code, abriendo el directorio ``practica6``.
 
-Los ficheros de la carpeta ``data`` proceden del portal de datos abiertos de Renfe ([Renfe Data](https://data.renfe.com/)) y son relativos a los [horarios programados para los servicios de cercanías, alta velocidad, larga distancia y media distancia](https://data.renfe.com/dataset?q=horarios&sort=score+desc%2C+metadata_modified+desc).
+Los ficheros de la carpeta ``data`` proceden del portal de datos abiertos de Renfe ([Renfe Data](https://data.renfe.com/)), son relativos a los [horarios programados para los servicios de cercanías, alta velocidad, larga distancia y media distancia](https://data.renfe.com/dataset?q=horarios&sort=score+desc%2C+metadata_modified+desc) y se distribuyen con la licencia descrita en https://data.renfe.com/legal.
 
 * El fichero `cercanias.zip` se ha descargado de https://data.renfe.com/dataset/horarios-cercanias/resource/6f1523c6-a9e3-48e3-9ace-bb107a762be6, con última actualización de los datos el 18 de noviembre de 2024. El contenido de los ficheros ``stops.txt`` y ``stop_times.txt`` ha sido ligeramente reordenado para ajustarse a los objetivos de esta práctica.
 
 * El fichero `ave.zip` se ha descargado de https://data.renfe.com/dataset/horarios-de-alta-velocidad-larga-distancia-y-media-distancia/resource/25d6b043-9e47-4f99-bd91-edd51d782450, con última actualización de los datos el 21 de noviembre de 2024. El contenido de los ficheros ``stops.txt`` y ``stop_times.txt`` ha sido modificado para coincidir con la estructura de los ficheros equivalentes del fichero ``cercanias.zip`` y ajustarse así a los objetivos de esta práctica.
+
+
+
+---
+[Práctica 6 de Programación 1](https://github.com/prog1-eina/practica6) © 2024 del [Profesorado del DIIS](https://diis.unizar.es/) tiene licencia [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)<img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"> excepto donde se indique lo contrario.
